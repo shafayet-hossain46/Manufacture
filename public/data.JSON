@@ -1,0 +1,82 @@
+[
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    },
+    {
+        "name": "tire",
+        "image": "https://www.embassytire.com/portals/25/Skins/redesign/img/tire-img.jpg",
+        "description": "The best tire in the world",
+        "minOrderQuantity": 5,
+        "availableQuantity": 50,
+        "price": 1000
+    }
+]

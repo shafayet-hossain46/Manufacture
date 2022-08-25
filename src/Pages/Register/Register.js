@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, Form, Container } from 'react-bootstrap';
+import { useNavigate } from "react-router-dom";
 import auth from '../../Firebase/Firebase.init';
-import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 const Register = () => {
+
+    // Updating User Name
+    const [displayName, setDisplayName] = useState('');
+    const [updateProfile, updating, error2] = useUpdateProfile(auth);
+    const navigate = useNavigate()
+
     
     // Google Sing In
     const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
@@ -17,9 +24,11 @@ const Register = () => {
         loading,
         error,
       ] = useCreateUserWithEmailAndPassword(auth);
-    const handleSubmit = e => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        createUserWithEmailAndPassword(e.target.email.value, e.target.password.value)
+        await createUserWithEmailAndPassword(e.target.email.value, e.target.password.value)
+        await updateProfile({displayName: e.target.name.value})
+        navigate('/home')
         console.log(user);
     }
     return (
