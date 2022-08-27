@@ -12,6 +12,7 @@ import Header from './SharedComponents/Header/Header';
 import Purchase from './Pages/Purchase/Purchase';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import MyOrders from './Pages/MyOrders/MyOrders';
+import Reviews from './Pages/Reviews/Reviews';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />}>
-          <Route path="/dashboard/myOrders" element={MyOrders} />
+          <Route path="/dashboard/myOrders" element={<MyOrders />} />
+          <Route path="/dashboard/review" element={<Reviews />} />
         </Route>
         <Route path="/purchase/:id" element={<Purchase />} />
         <Route path="/login" element={<Login />} />

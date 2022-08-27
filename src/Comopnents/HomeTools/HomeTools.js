@@ -12,7 +12,7 @@ const HomeTools = () => {
             <Container>
                 <div className="row align-items-center">
                     {tools.map(tool => <Card className="col-md-4 mb-4  shadow-3">
-                    <Card.Img variant="top" src={tool.image} />
+                    <Card.Img variant="top" src={tool?.image} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
